@@ -12,7 +12,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./medi-tfcloud
+        working-directory: .
     steps:
     - name: Checkout
       uses: actions/checkout@v4      
